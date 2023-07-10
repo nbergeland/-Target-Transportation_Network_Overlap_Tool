@@ -1,4 +1,6 @@
 # -Target-Transportation_Network_Overlap_Tool
+At Target we received solicitations from many carriers looking to haul our goods.  Unfortunately not all fit our needs.  This is a model I developed to highlight synergies in our network with the carriers.  It was performed by receiving their top 25 origin -> destination zip codes, and converting these to Lat Lon format using a ChatGPT API which were then bounced against our DC network to highlight the closest Target location to their top lanes by volume.
+
 Tool to detect naturally existing fits between carriers soliciting Target to join our transportation network.
 Uses Haversian distance formula to measure distance to nearest DC.
 
