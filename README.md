@@ -2,10 +2,13 @@
 Tool to detect naturally existing fits between carriers soliciting Target to join our transportation network.
 Uses Haversian distance formula to measure distance to nearest DC.
 
+**#Import Packages**
 
 import math
 import pandas as pd
 import numpy as np
+import plotly.express as px
+
 # Haversine distance calculations
 def haversine_distance(coord1, coord2):
     lat1, lon1 = coord1
