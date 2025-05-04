@@ -34,6 +34,51 @@ The FIT Score provides a weighted evaluation metric that considers both distance
 
 ![Screenshot](fsc.png)
 
+## Key Market Area Mapper
+This component maps ZIP codes to predefined market areas, enabling regional analysis of the distribution network.
+![Screenshot](kma.png)
+
+## Data Sources
+
+The system utilizes several Excel files as data sources:
+
+File Name			Description						Key Fields
+distribution_centers.xlsx	Contains information about distribution centers	id, Latitude, Longitude
+shipment_destinations.xlsx	Contains information about shipment destinations	Name, Latitude, Longitude, Volume
+Origin-Destination Guide DFM.xlsx	Contains origin-destination pairing information	Various fields for logistics planning
+KMA.xlsx	Contains Key Market Area mapping data	3-digit Zip, Market Area ID, Market Area Name, Region
+
+## Methodoligical Comparisons
+The system employs multiple methods for distribution center assignment and evaluation, each with different considerations:
+![Screenshot](mc.png)
+
+## Analysis & Visualization
+The tool includes various methods for analyzing and visualizing the transportation network data:
+
+1, Distance Metrics Analysis:
+
+- Average distance between destinations and assigned DCs
+- Minimum and maximum distances
+- Statistical distribution of distances
+
+2. FIT Score Analysis:
+
+- Weighted scoring that balances distance and volume
+- Average FIT scores for top lanes
+
+3. Visualizations:
+
+- Bar graphs showing distances by distribution center
+- Scatter plots for relationship analysis
+- Choropleth maps for geographic data representation
+
+## Key Implementation Concepts
+The system is implemented as a collection of Jupyter notebooks, each focusing on specific aspects of the transportation network analysis:
+
+![Screenshot](kic.png)
+
+## Summary
+The Transportation Network Overlap Tool provides a comprehensive framework for analyzing and optimizing distribution networks through multiple analytical approaches. By combining machine learning models, geographic distance calculations, multi-factor scoring, and regional market mapping, the tool enables data-driven decision-making for transportation network optimization.
 
 
 
@@ -164,5 +209,7 @@ The FIT Score provides a weighted evaluation metric that considers both distance
 		# Create the scatter bubble graph
 		fig = px.scatter(df, x="origin_id", y="distance", color="nearest_dc_id", size="distance", title="Miles of Top Lanes to Target DC")
 		fig.show()
-		 
+
+
+   More detail may be found at: https://deepwiki.com/nbergeland/-Target-Transportation_Network_Overlap_Tool
 		 
