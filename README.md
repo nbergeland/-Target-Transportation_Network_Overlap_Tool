@@ -23,7 +23,7 @@ The system consists of four primary analytical components that work with shared 
 The K-Nearest Neighbors model is implemented to predict the nearest distribution center for shipment destinations based on geographical coordinates.
 ![Screenshot](knn.png)
 
-## Hsversine Distance Calculator
+## Haversine Distance Calculator
 This component calculates the great-circle distance between two geographical points using the Haversine formula, accounting for the curvature of the Earth.
 
 ![Screenshot](hdc.png)
