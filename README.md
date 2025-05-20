@@ -1,7 +1,7 @@
 # $${\color{red}Transportation-Network-Overlap-Detector}$$	
 
 ## Overview
-The $${\color{red}Target}$$ Transportation Network Overlap Tool is a comprehensive system designed to analyze distribution networks and optimize the assignment of distribution centers to shipment destinations. This tool employs multiple analytical methods, including machine learning, geographic distance calculations, and multi-factor scoring, to provide data-driven insights for transportation network optimization.
+### The $${\color{red}Target}$$ Transportation Network Overlap Tool is a comprehensive system designed to analyze distribution networks and optimize the assignment of distribution centers to shipment destinations. This tool employs multiple analytical methods, including machine learning, geographic distance calculations, and multi-factor scoring, to provide data-driven insights for transportation network optimization.
 
 This overview page introduces the core components and architecture of the system. 
 
