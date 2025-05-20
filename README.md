@@ -5,7 +5,7 @@
 
 This overview page introduces the core components and architecture of the system. 
 
-## $${\color{red}Purpose & Scope }$$
+## $${\color{red}Purpose-And-Scope}$$
 The primary purpose of the Transportation Network Overlap Tool is to:
 
 1. Determine optimal distribution center assignments for shipment destinations
@@ -23,12 +23,12 @@ The system consists of four primary analytical components that work with shared 
 The K-Nearest Neighbors model is implemented to predict the nearest distribution center for shipment destinations based on geographical coordinates.
 ![Screenshot](knn.png)
 
-## $${\color{red}aversine Distance Calculator}$$
+## $${\color{red}Haversine-Distance-Calculator}$$
 This component calculates the great-circle distance between two geographical points using the Haversine formula, accounting for the curvature of the Earth.
 
 ![Screenshot](hdc.png)
 
-## FIT Score Calculator
+## $${\color{red}FIT Score Calculator}$$
 The FIT Score provides a weighted evaluation metric that considers both distance and shipment volume in determining optimal distribution center assignments.
 
 ![Screenshot](fsc.png)
