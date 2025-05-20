@@ -1,11 +1,11 @@
 # $${\color{red}Transportation-Network-Overlap-Detector}$$	
 
-## Overview
+## $${\color{red}Overview}$$
 #### The $${\color{red}Target}$$ Transportation Network Overlap Tool is a comprehensive system designed to analyze distribution networks and optimize the assignment of distribution centers to shipment destinations. This tool employs multiple analytical methods, including machine learning, geographic distance calculations, and multi-factor scoring, to provide data-driven insights for transportation network optimization.
 
 This overview page introduces the core components and architecture of the system. 
 
-## Purpose & Scope
+## $${\color{red}Purpose & Scope }$$
 The primary purpose of the Transportation Network Overlap Tool is to:
 
 1. Determine optimal distribution center assignments for shipment destinations
@@ -14,16 +14,16 @@ The primary purpose of the Transportation Network Overlap Tool is to:
 4. Map destinations to key market areas for regional analysis
 5. Visualize transportation network data for decision-making
 
-## System Architecture
+## $${\color{red}System-Architecture}$$
 The system consists of four primary analytical components that work with shared data sources to produce various outputs for transportation network analysis.
 ![Screenshot](arc.png)
 
-# Core Components
+# $${\color{red}Core Components}$$
 ## KNN Model
 The K-Nearest Neighbors model is implemented to predict the nearest distribution center for shipment destinations based on geographical coordinates.
 ![Screenshot](knn.png)
 
-## Haversine Distance Calculator
+## $${\color{red}aversine Distance Calculator}$$
 This component calculates the great-circle distance between two geographical points using the Haversine formula, accounting for the curvature of the Earth.
 
 ![Screenshot](hdc.png)
