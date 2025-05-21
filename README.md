@@ -47,6 +47,7 @@ shipment_destinations.xlsx	Contains information about shipment destinations	Name
 Origin-Destination Guide DFM.xlsx	Contains origin-destination pairing information	Various fields for logistics planning
 KMA.xlsx	Contains Key Market Area mapping data	3-digit Zip, Market Area ID, Market Area Name, Region
 
+To run on your own, you will need two excel files with zip codes formatted as (latitude, longitude) coordinates.
 ## $${\color{red}Methodoligical-Comparisons}$$
 The system employs multiple methods for distribution center assignment and evaluation, each with different considerations:
 ![Screenshot](mc.png)
