@@ -28,12 +28,12 @@ This component calculates the great-circle distance between two geographical poi
 
 ![Screenshot](hdc.png)
 
-## $${\color{red}FIT Score Calculator}$$
+## $${\color{red}FIT-Score-Calculator}$$
 The FIT Score provides a weighted evaluation metric that considers both distance and shipment volume in determining optimal distribution center assignments.
 
 ![Screenshot](fsc.png)
 
-## $${\color{red}Key Market Area Mapper}$$
+## $${\color{red}Key-Market-Area-Mapper}$$
 This component maps ZIP codes to predefined market areas, enabling regional analysis of the distribution network.
 ![Screenshot](kma.png)
 
