@@ -215,5 +215,4 @@ The Transportation Network Overlap Tool provides a comprehensive framework for a
 ![Target](https://github.com/user-attachments/assets/66a8c678-3616-4f1d-b160-de5557a840c0)
 
 
-   *More detail may be found at: https://deepwiki.com/nbergeland/-Target-Transportation_Network_Overlap_Tool*
 		 
