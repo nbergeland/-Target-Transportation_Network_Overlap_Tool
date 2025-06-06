@@ -1,11 +1,10 @@
-# $${\color{red}Network-Overlap-Detector🎯}$$	
-
-## $${\color{red}Overview}$$
+# Network-Overlap-Detector🎯
+## Overview
 The Target Transportation Network Overlap Tool is a comprehensive system designed to analyze distribution networks and optimize the assignment of distribution centers to shipment destinations. This tool employs multiple analytical methods, including machine learning, geographic distance calculations, and multi-factor scoring, to provide data-driven insights for transportation network optimization.
 
 This overview page introduces the core components and architecture of the system. 
 
-## $${\color{red}Purpose-And-Scope}$$
+## Purpose-And-Scope
 The primary purpose of the Transportation Network Overlap Tool is to:
 
 1. Determine optimal distribution center assignments for shipment destinations
@@ -14,30 +13,30 @@ The primary purpose of the Transportation Network Overlap Tool is to:
 4. Map destinations to key market areas for regional analysis
 5. Visualize transportation network data for decision-making
 
-## $${\color{red}System-Architecture}$$
+## System-Architecture
 The system consists of four primary analytical components that work with shared data sources to produce various outputs for transportation network analysis.
 ![Screenshot](arc.png)
 
-# $${\color{red}Core-Components}$$
-## $${\color{red}KNN-Model}$$
+# Core-Components
+## KNN-Model
 The K-Nearest Neighbors model is implemented to predict the nearest distribution center for shipment destinations based on geographical coordinates.
 ![Screenshot](knn.png)
 
-## $${\color{red}Haversine-Distance-Calculator}$$
+## Haversine-Distance-Calculator
 This component calculates the great-circle distance between two geographical points using the Haversine formula, accounting for the curvature of the Earth.
 
 ![Screenshot](hdc.png)
 
-## $${\color{red}FIT-Score-Calculator}$$
+## FIT-Score-Calculator
 The FIT Score provides a weighted evaluation metric that considers both distance and shipment volume in determining optimal distribution center assignments.
 
 ![Screenshot](fsc.png)
 
-## $${\color{red}Key-Market-Area-Mapper}$$
+## Key-Market-Area-Mapper
 This component maps ZIP codes to predefined market areas, enabling regional analysis of the distribution network.
 ![Screenshot](kma.png)
 
-## $${\color{red}Data-Sources}$$
+## Data-Sources
 
 The system utilizes several Excel files as data sources:
 
@@ -48,11 +47,11 @@ Origin-Destination Guide DFM.xlsx	Contains origin-destination pairing informatio
 KMA.xlsx	Contains Key Market Area mapping data	3-digit Zip, Market Area ID, Market Area Name, Region
 
 To run on your own, you will need two excel files with zip codes formatted as (latitude, longitude) coordinates.
-## $${\color{red}Methodoligical-Comparisons}$$
+## Methodoligical-Comparisons
 The system employs multiple methods for distribution center assignment and evaluation, each with different considerations:
 ![Screenshot](mc.png)
 
-## $${\color{red}Analysis-and-Visualization}$$
+## Analysis-and-Visualization
 The tool includes various methods for analyzing and visualizing the transportation network data:
 
 1, Distance Metrics Analysis:
@@ -72,15 +71,15 @@ The tool includes various methods for analyzing and visualizing the transportati
 - Scatter plots for relationship analysis
 - Choropleth maps for geographic data representation
 
-## $${\color{red}Key-Implementation-Concepts}$$
+## Key-Implementation-Concepts
 The system is implemented as a collection of Jupyter notebooks, each focusing on specific aspects of the transportation network analysis:
 
 ![Screenshot](kic.png)
 
-# $${\color{red}Summary}$$
+# Summary
 The Transportation Network Overlap Tool provides a comprehensive framework for analyzing and optimizing distribution networks through multiple analytical approaches. By combining machine learning models, geographic distance calculations, multi-factor scoring, and regional market mapping, the tool enables data-driven decision-making for transportation network optimization.
 
-#  $${\color{red}Code:}$$
+# Code
 
 
 
